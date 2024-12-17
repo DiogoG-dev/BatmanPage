@@ -178,3 +178,54 @@ span {
     flex-direction: column;
     align-items: center;
 }
+
+@media(max-width: 768px) {
+    .footer-navigation {
+        display: block;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .banner {
+        background-position: 40%;
+        height: 205px;
+    }
+
+    .trailer-container {
+        width: 100%;
+        height: 400px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 200px;
+    }
+
+    .content {
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .trailer {
+        width: 100%;
+    }
+
+    .sinopse {
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .button {
+        width: 100;
+        margin-top: 30px;
+    }
+
+    .cards-content {
+        grid-template-columns: 1fr;
+        margin-top: 150px;
+    }
+}
