@@ -156,11 +156,25 @@ li:hover {
 }
 
 footer {
-    width: 100%;
-    height: 150px;
+    height: 200px;
+    margin-top: 50px;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
-    font-family: 'Kdam Thmor Pro', sans-serif;
+    justify-content: space-evenly;
+}
+
+span {
     color: #ffffff;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.footer-navigation {
+    display: none;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
