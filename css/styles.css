@@ -1,14 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
 
+:root {
+    --bg-color-01: #000000;
+    --bg-color-02: #ffffff;
+    --bg-color-03: #960000;
+
+    --color-01: #000000;
+    --color-02: #ffffff;
+    --color-03: #D21617;
+}
 * {
     margin: 0;
     padding: 0;
     list-style: none;
     text-decoration: none;
-    background-color: #000000;
+    color: var(--color-02);
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+body {
+    background-color: var(--bg-color-01);
 }
 
 header {
+    background-color: var(--bg-color-01);
     height: 90px;
     display: flex;
     justify-content: space-around;
@@ -27,15 +42,13 @@ ul {
 
 li {
     list-style: none;
-    color: #f0f8ff;
     cursor: pointer;
     font-size: 19px;
     transition: .5s;
-    font-family: 'Kdam Thmor Pro', sans-serif;
 }
 
 li:hover {
-    color: #D21617
+    color: var(--color-03);
 }
 
 .logo {
@@ -43,130 +56,18 @@ li:hover {
     height: auto;
 }
 
-.banner {
-    background-image: url('https://i.pinimg.com/originals/8b/0f/be/8b0fbe82c3f5bb73eca9f557e8a9879c.jpg');
-    background-position: 50% 50%;
-    background-size: cover;
-    width: 100%;
-    height: 550px;
-}
-
-.trailer-container {
-    width: 100%;
-    height: 400px;
-    display: flex;
-    justify-content: center;
-}
-
-.content {
-    width: 60%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.trailer {
-    width: 50%;
-}
-
-.sinopse {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin: 30px;
-}
-
-.description {
-    color: #ffffff;
-    font-size: 19px;
-    font-family: 'Kdam Thmor Pro', sans-serif;
-    width: 100%;
-}
-
-.button {
-    width: 200px;
-    height: 60px;
-    background-color: #D21617;
-    color: #ffffff;
-    padding: 8px 10px;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: .8s;
-    font-size: 18px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: bold;
-    border: none;
-    outline: none;
-    margin-top: 25px;
-}
-
-.button:hover {
-    background-color: #ffffff;
-    color: #000000;
-}
-
-.actor-cards-container {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    margin-top: 50px;
-}
-
-.cards-content {
-    width: 90%;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    row-gap: 20px;
-    column-gap: 40px;
-}
-
-.card {
-    width: 100%;
-    height: 600px;
-    background-size: cover;
-    background-position: 50% 50%;
-    border-radius: 5px;
-    transition: 1s;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    padding: 0 0 20px 10px;
-    color: #ffffff;
-    font-size: 17px;
-    font-family: 'Kdam Thmor Pro', sans-serif;
-}
-
-.card:hover {
-    transform: scale(1.05);
-}
-
-.banner-1 {
-    background-image: url('https://static.wikia.nocookie.net/the-batman-universe/images/b/b6/Batman_%28Bruce_Wayne%29.png');
-}
-
-.banner-2 {
-    background-image: url('https://images.elle.com.br/2022/08/origin-118.jpg');
-}
-
-.banner-3 {
-    background-image: url('https://p2.trrsf.com/image/fget/cf/774/0/images.terra.com/2022/02/01/582543022-the-batman-2022s-the-riddler-in-an-all-green-look-with-a-mask.jpeg');
-}
-
 footer {
-    height: 200px;
+    height: 100px;
     margin-top: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
+    background-color: var(--bg-color-03);
 }
 
 span {
-    color: #ffffff;
-    font-family: 'Kdam Thmor Pro', sans-serif;
+    background-color: var(--bg-color-03);
 }
 
 .footer-navigation {
@@ -186,46 +87,5 @@ span {
 
     nav {
         display: none;
-    }
-
-    .banner {
-        background-position: 40%;
-        height: 205px;
-    }
-
-    .trailer-container {
-        width: 100%;
-        height: 400px;
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        margin-top: 200px;
-    }
-
-    .content {
-        width: 95%;
-        display: flex;
-        flex-direction: column;
-    }
-
-    .trailer {
-        width: 100%;
-    }
-
-    .sinopse {
-        width: 95%;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-    }
-    
-    .button {
-        width: 100;
-        margin-top: 30px;
-    }
-
-    .cards-content {
-        grid-template-columns: 1fr;
-        margin-top: 150px;
     }
 }
