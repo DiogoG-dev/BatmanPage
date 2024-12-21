@@ -2,7 +2,7 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    margin: 100px 0;
+    margin: 50px 0;
 }
 
 .photos-content {
@@ -77,4 +77,11 @@
 
 .photo-12 {
     background-image: url('https://m.media-amazon.com/images/M/MV5BMjc5OTBhNGUtNTQ4NS00YjI5LTk2MDMtMTM3NjkxNGI4YzQ2XkEyXkFqcGc@._V1_QL75_UX808_.jpg');
+}
+
+@media(max-width: 768px) {
+    .photos-content {
+        width: 75%;
+        grid-template-columns: 1fr
+    }
 }
