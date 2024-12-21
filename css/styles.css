@@ -30,6 +30,11 @@ header {
     align-items: center;
 }
 
+header a {
+    display: flex;
+    align-items: center;
+}
+
 nav {
     width: 60%;
 }
