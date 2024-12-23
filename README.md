@@ -13,7 +13,7 @@ O **BatmanPage** é uma página com a finalidade de promover o filme *The Batman
 1. **Home**: Tela inicial que apresenta o filme, com trailer, sinopse resumida e destaque para os personagens principais.
 2. **Fotos**: Galeria de imagens do filme, com os personagens e cenas mais marcantes.
 3. **Comentários**: Seção para exibir comentários e críticas sobre o filme, incluindo opiniões construtivas, elogios e críticas.
-4. **Contatos**: Página de contatos com os principais meios de comunicação para o desenvolvedor do site, como LinkedIn, GitHub, Gmail e Portfólio.
+4. **Contatos**: Página de contatos com os principais meios de comunicação para o desenvolvedor do site, como Portfólio, GitHub, LinkedIn e E-mail.
 
 ## 🛠️ Funcionalidades
 
