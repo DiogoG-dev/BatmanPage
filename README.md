@@ -1,8 +1,60 @@
-# BatmanPage
-O projeto consiste no desenvolvimento de uma página para a venda de ingressos do filme The Batman (2022), com o objetivo de aplicar os conhecimentos em HTML e CSS Modernos adiquiridos. O site é composto por 4 telas principais:
-1- Home: responsável por fazer uma apresentação geral do filme, contendo o trailer, a sinopse resumida e os personagens principais do filme.
-2- Fotos: responsável por mostrar os demais personagens e imagens mais marcantes do filme.
-3- Comentários: responsável por mostrar os comentários mais relevântes sobre o filme, como críticas contrutivas, elogios e insatisfações.
-4- Contatos: responsável por mostrar o principais meios de comunicação direta com o desenvolvedor do site, como LinkedIn, GitHub, Gmail e Portifólio.
+# 🦇🎬 BatmanPage
 
-Acesse a página clicando aqui https://diogog-dev.github.io/BatmanPage/
+**BatmanPage** é um projeto desenvolvido para a venda de ingressos do filme *The Batman* (2022). O objetivo principal deste projeto é aplicar conhecimentos em **HTML** e **CSS modernos** para construir uma página interativa e funcional. A página é composta por 4 telas principais e foi desenvolvida para fornecer uma apresentação do filme, com funcionalidades simples e design responsivo.
+
+[Visualize a página aqui!](https://diogog-dev.github.io/BatmanPage/)
+
+## 📝 Descrição
+
+O **BatmanPage** é uma página com a finalidade de promover o filme *The Batman* (2022) e desenvolver um design que facilite a compra de ingressos. O projeto foi desenvolvido como uma forma de colocar em prática os conhecimentos adquiridos durante o aprendizado de HTML e CSS modernos.
+
+### As telas principais do projeto são:
+
+1. **Home**: Tela inicial que apresenta o filme, com trailer, sinopse resumida e destaque para os personagens principais.
+2. **Fotos**: Galeria de imagens do filme, com os personagens e cenas mais marcantes.
+3. **Comentários**: Seção para exibir comentários e críticas sobre o filme, incluindo opiniões construtivas, elogios e críticas.
+4. **Contatos**: Página de contatos com os principais meios de comunicação para o desenvolvedor do site, como LinkedIn, GitHub, Gmail e Portfólio.
+
+## 🛠️ Funcionalidades
+
+- Exibição de um **trailer** do filme na Home.
+- Apresentação de **personagens principais** do filme.
+- **Galeria de fotos** com cenas e personagens.
+- **Comentários** sobre o filme, coletando feedbacks e críticas.
+- **Seção de contatos** com links para perfis profissionais e e-mail.
+
+## 💻 Tecnologias Utilizadas
+
+- **HTML5**
+- **CSS3** (incluindo Flexbox e Grid)
+- **Responsividade**: Layout otimizado para visualização em diferentes dispositivos (desktop, tablet, celular).
+
+## ⬇️ Instalação
+
+Para rodar o projeto localmente em sua máquina, siga os passos abaixo:
+
+### Passos
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/diogog-dev/BatmanPage.git
+2. Navegue até o diretório do projeto:
+   ```bash
+   cd BatmanPage
+3. Abra o arquivo index.html em seu navegador de preferência:
+   ```bash
+   open index.html  # no macOS
+   start index.html  # no Windows
+   xdg-open index.html  # no Linux
+
+## 🤝 Como Contribuir
+Se você deseja contribuir para o desenvolvimento deste projeto, fique à vontade para fazer um fork e enviar pull requests.
+
+1. Faça um fork deste repositório.
+2. Crie uma nova branch para suas alterações (git checkout -b feature/nova-feature).
+3. Faça commit das suas alterações (git commit -am 'Adiciona nova funcionalidade').
+4. Envie para sua branch (git push origin feature/nova-feature).
+5. Abra um pull request detalhando as mudanças feitas.
+
+## 📜 Licença
+Este projeto está licenciado sob a Licença MIT - consulte o arquivo LICENSE para mais detalhes.
