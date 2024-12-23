@@ -9,13 +9,13 @@
     width: 60%;
     background-color: #181818;
     border-radius: 15px;
-    padding: 20px;
+    padding: 15px;
 }
 
 .div-comment {
     display: flex;
     align-items: flex-start;
-    margin: 30px 0;
+    margin: 20px 0;
 }
 
 .img {
@@ -107,4 +107,10 @@ img {
 
 .img-12 {
     background-image: url('https://i.pinimg.com/736x/b2/2d/11/b22d11d4d83285479420d15fa3e05b8c.jpg');
+}
+
+@media(max-width: 768px) {
+    .comments-content {
+        width: 85%;
+    }
 }
